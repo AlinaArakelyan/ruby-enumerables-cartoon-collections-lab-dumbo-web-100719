@@ -7,8 +7,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  short_words << array.select do |word| word.length < 4
-  if array.include?(short_words) 
+  short_words = array.select do |word| word.length < 4
+  if short_words
     return false
   end 
     return true
