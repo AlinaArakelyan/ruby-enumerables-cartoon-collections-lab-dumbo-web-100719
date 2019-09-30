@@ -11,7 +11,7 @@ def long_planeteer_calls(array)
   if short_words
     return false
   end 
-    p true
+  return true
   end 
 end
 
