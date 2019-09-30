@@ -25,5 +25,5 @@ def find_the_cheese(array)
   if true 
     array.find(cheese_types.first)
   end
-  return false
+  return nil
 end
