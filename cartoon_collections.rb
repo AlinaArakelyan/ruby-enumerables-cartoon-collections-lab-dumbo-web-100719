@@ -24,4 +24,6 @@ def find_the_cheese(array)
   array.include?(cheese_types)
   if true 
     return cheese_types[i]
+  end
+  return false
 end
